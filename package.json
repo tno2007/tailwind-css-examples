@@ -1,0 +1,20 @@
+{
+  "name": "tailwind-css-examples",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "example-01": "scripty"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "live-server": "^1.2.2"
+  },
+  "devDependencies": {
+    "scripty": "^2.1.1",
+    "tailwindcss": "^3.3.3"
+  }
+}
