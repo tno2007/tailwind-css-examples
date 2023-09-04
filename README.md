@@ -7,13 +7,13 @@ This project is a simple html project
 
 First, install Tailwind
 
-```
+```sh
 pnpm add -D tailwindcss
 ```
 
 Create a config file, using TW CLI
 
-```
+```sh
 pnpx tailwindcss init
 ```
 
@@ -35,7 +35,7 @@ The above sets up TW to look in the src folder and scan html and js files for ta
 
 Create the base tailwind css file
 
-```
+```sh
 touch ./src/app.css
 ```
 
@@ -50,7 +50,7 @@ Add base styles
 
 Now whenever you to generate you css styles, run:
 
-```
+```sh
 pnpm tailwindcss -i ./src/app.css -o ./dist/app.css -c ./tailwind.config.js --minify
 ```
 

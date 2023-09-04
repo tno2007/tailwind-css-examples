@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "example-01:build": "scripty",
-    "example-01:serve": "scripty"
+    "example-01:serve": "scripty",
+    "example-02": "scripty"
   },
   "keywords": [],
   "author": "",
